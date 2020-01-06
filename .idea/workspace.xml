@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e0c33fe-2e19-4c46-b549-17558a342b4b" name="Default" comment="第一个快照版本还不完善" />
+    <list default="true" id="4e0c33fe-2e19-4c46-b549-17558a342b4b" name="Default" comment="第一个快照版本还不完善">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -248,7 +256,7 @@
       <workItem from="1577671309470" duration="9802000" />
       <workItem from="1577954833493" duration="4447000" />
       <workItem from="1578017441804" duration="23276000" />
-      <workItem from="1578273663301" duration="22296000" />
+      <workItem from="1578273663301" duration="22579000" />
     </task>
     <task id="LOCAL-00001" summary="第一个快照版本还不完善">
       <created>1578303320285</created>
@@ -257,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578303320285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第一个快照版本还不完善">
+      <created>1578303507118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578303507118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,10 +327,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577686035031" />
-    <state x="1877" y="113" key="CommitChangelistDialog2" timestamp="1578303317722">
+    <state x="1877" y="113" key="CommitChangelistDialog2" timestamp="1578303505079">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1877" y="113" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303317722" />
+    <state x="1877" y="113" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303505079" />
     <state width="712" height="666" key="DebuggerActiveHint" timestamp="1578042476188">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -394,10 +409,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1575356171129" />
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578303335927">
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578303520547">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303335927" />
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303520547" />
     <state x="2050" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1578303436304">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
