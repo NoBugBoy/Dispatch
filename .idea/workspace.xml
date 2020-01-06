@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e0c33fe-2e19-4c46-b549-17558a342b4b" name="Default" comment="" />
+    <list default="true" id="4e0c33fe-2e19-4c46-b549-17558a342b4b" name="Default" comment="第一个快照版本还不完善" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +22,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\projects\dispatch\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -32,6 +44,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1USe7eASH9d18um80dewx4wFe7b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -235,12 +248,24 @@
       <workItem from="1577671309470" duration="9802000" />
       <workItem from="1577954833493" duration="4447000" />
       <workItem from="1578017441804" duration="23276000" />
-      <workItem from="1578273663301" duration="22055000" />
+      <workItem from="1578273663301" duration="22296000" />
     </task>
+    <task id="LOCAL-00001" summary="第一个快照版本还不完善">
+      <created>1578303320285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578303320285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一个快照版本还不完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一个快照版本还不完善" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1918" y="178" key="#Notifications" timestamp="1575366854384">
@@ -287,6 +312,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577686035031" />
+    <state x="1877" y="113" key="CommitChangelistDialog2" timestamp="1578303317722">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1877" y="113" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303317722" />
     <state width="712" height="666" key="DebuggerActiveHint" timestamp="1578042476188">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -365,6 +394,14 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1575356171129" />
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578303335927">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1918" y="253" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303335927" />
+    <state x="2050" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1578303436304">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2050" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303436304" />
     <state width="970" height="530" key="XDebugger.FullValuePopup" timestamp="1578042072547">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -384,6 +421,10 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2002" y="258" width="786" height="590" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578294822440" />
+    <state x="2036" y="311" key="git4idea.merge.GitPullDialog" timestamp="1578303388185">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2036" y="311" key="git4idea.merge.GitPullDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1578303388185" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1575354612859">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
