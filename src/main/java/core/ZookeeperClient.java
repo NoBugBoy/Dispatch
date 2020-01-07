@@ -111,7 +111,7 @@ public class ZookeeperClient  {
                 RemoteChannel remoteChannel = JsonUtils.get().readValue(data, RemoteChannel.class);
                 List<String> label = remoteChannel.getLabel();
                 // 127.0.0.0:8080
-                CHANNEL.addRemoteChannel(label,child.split("#")[0] + ":" + DispatchConfig.DISPATCH_PORT);
+                CHANNEL.addRemoteChannel(label,child.split("#")[0]);
             } catch (KeeperException | InterruptedException | IOException e) {
                 e.printStackTrace();
             }

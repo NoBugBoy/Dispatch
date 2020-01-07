@@ -9,8 +9,10 @@ import io.netty.util.internal.StringUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import rpc.RpcClient;
+import utils.IpUtils;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -74,16 +76,18 @@ public class Service {
      * 远程调用
      */
     public static void rpcSend(String host, BaseRequest baseRequest,HttpExchange httpExchange, Long timeOut) throws IOException {
+        String realIp = IpUtils.getRealIp();
+        URL url = new URL(host);
+        if(!StringUtil.isNullOrEmpty(realIp) && url.getHost().equalsIgnoreCase(realIp)){
+            host = host.replace(realIp,"127.0.0.1");
+        }
+
         String msg = RpcClient.send(host, baseRequest, timeOut);
         if(null == msg){
             Responses.sendResponse(httpExchange,Responses.errorMap("调用失败！"));
         }else{
             Responses.sendResponse(httpExchange,msg);
         }
-
-
-
-
 
     }
 }

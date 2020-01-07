@@ -111,7 +111,7 @@ public class ConnectionRepository extends DefaultChannelGroup{
                         .label(labels)
                         .build();
                 boolean zoo_add ;
-                String incrIp = IpUtils.getRealIp() + IncrUtils.incr();
+                String incrIp = IpUtils.getRealIp()+ ":" + DispatchConfig.DISPATCH_PORT+ IncrUtils.incr();
                 zoo_add = ZookeeperClient.createChannel("/" + incrIp, JsonUtils.get().writeValueAsString(remoteChannel));
                 if(!zoo_add){
                     return false;
